@@ -1,4 +1,4 @@
-﻿/*
+/*
     Name: Jinxing Huang (Jason)
     ID: A00972319
  */
@@ -164,6 +164,12 @@ position:absolute;
 background-color:fuchsia;
 }
 
+#protoimg{
+        width: 70%;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 20px;
+}
 
 
 
@@ -200,6 +206,13 @@ main{
     text-align: center;
 }
 
+#sitemap {
+ width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    text-align: center;
+}
 footer{
     text-align: center;
 }

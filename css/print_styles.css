@@ -1,0 +1,39 @@
+
+
+/*Neda Alinejadian
+      Student Number: A01025281 */
+
+section{
+	page-break-before:avoid;
+}
+h1, h2, h3, h4, h5, h6{
+	page-break-after:avoid;
+	color:black;
+	background-color:none;
+	text-shadow:none;
+}
+#headertop, #navcontainer, #leftsidebar, header ul{
+	display:none;
+}
+
+header{
+	display:none;
+}
+section img{
+	break-after:always;
+}	
+a:link:after, a:visited:after{
+	 content: " (URL: " attr(href) ") ";
+	font-size:90%;
+}
+a:link, a:visited{
+	color: #309;
+		font-weight: bold;
+		text-decoration: underline;
+}
+#submenu{
+    display: none;
+}
+.btop{
+    display: none;
+}
