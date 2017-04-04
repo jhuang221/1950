@@ -1,0 +1,101 @@
+<!--
+    Name: Jinxing Huang (Jason)
+    ID: A00972319
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/lecture.css">
+<link rel="stylesheet" href="css/print_styles.css" media="print" />
+	<script type="text/javascript" src="js/lecture.js" defer="defer"></script>
+
+    <!-- #BeginEditable "doctitle" -->
+
+    <title>Web Development and Design</title>
+<!-- #EndEditable -->
+</head>
+<body>
+    <header>
+        <div>
+            <ul id="headertop">
+            <li><a href="#">Bcit_D2L</a></li>
+            <li><a href="#">My.bcit</a></li>
+            <li><a href="#">Bcit:computing</a></li>
+            </ul>
+        
+        </div>
+        
+       <div id="navcontainer">
+        <ul id="navlist">
+            <li><a href="#" id="current">About</a></li>
+            <li><a href="#" onclick="return false;" >Tutorial</a>
+            	<div><ul>
+            		<li><a href="pages/lecture_lectures.html">Lecture One</a></li>
+            		<li><a href="pages/lecture_two.html">Lecture Two</a></li>
+            		<li><a href="pages/lecture_three.html">Lecture Three</a></li>
+            		<li><a href="pages/lecture_four.html">Lecture Four</a></li>
+            		<li><a href="pages/lecture_five.html">Lecture Five</a></li>
+            		<li><a href="pages/lecture_six.html">Lecture Six</a></li>
+            		<li><a href="pages/lecture_seven.html">Lecture Seven</a></li>
+            		<li><a href="pages/lecture_eight.html">Lecture Eight</a></li>
+            		<li><a href="pages/lecture_nine.html">Lecture Nine</a></li>
+            		<li><a href="pages/lecture_ten.html">Lecture Ten</a></li>
+            		<li><a href="pages/lecture_eleven.html">Lecture Eleven</a></li>
+            	
+            	</ul></div>
+            
+            </li>
+                
+            <li><a href="#">Sitmap</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Associated</a></li>
+        </ul>
+        </div>
+        <div id="title">
+        	 <!-- #BeginEditable "pagetitle" -->
+            <h1>Comp 1950</h1>
+             <!-- #EndEditable "pagetitle" -->
+             <!-- #BeginEditable "lecturetitle" -->
+            <p><!-- $lecturename --></p>
+             <!-- #EndEditable "lecturetitle" -->
+        </div>
+    </header>
+    <main>
+        <div id="leftsidebar">
+            <h4>Course Description</h4>
+            <ul id ="sidernav">
+            <li><a href="index.html">About</a></li>
+            <!-- id="active" -->
+            <li class="active"><a href="#" id="current">Lecture</a>
+			<ul>
+            <li><a href="#">Quiz</a></li>
+            <li><a href="#" onclick="return exercises(this);" id="exercises">Exercises</a></li>
+            <li><a href="#" onclick="return summary(this);" id="summary">Summary</a></li>
+            <li><a href="#" onclick="return showall(this);" id="showall">Show All</a></li>
+
+            <li><a href="#Homework">Homework</a></li>
+            <li><a href="#">Related Tutorial Sites</a></li>
+            <li><a href="#" onclick="return projector(this)">full screen</a></li>
+            </ul>
+            </li>
+
+            </ul>
+        </div>
+        <div id= "content">
+             <!-- #BeginEditable "content" -->
+             <!-- $lecturecontent -->
+              <!-- #EndEditable "content" -->
+            </div>
+        <div  id="rightsidebar">
+        </div>
+      
+    </main>
+    <footer>
+          <p><i><small>Copyright &copy; 2017 Jason. All Rights Reserved.</small></i>        <a href="http://validator.w3.org/check?uri=referer">validate</a></p>
+    </footer>
+</body>
+</html>

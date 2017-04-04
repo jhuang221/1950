@@ -1,0 +1,149 @@
+﻿/*Lecture format*/
+
+/*Sub menu*/
+
+
+#submenu a:link {
+display:inline-block;
+}
+
+
+div#submenu {
+background-color: aqua;
+padding:5px;
+
+}
+
+div#submenu a.topic {
+font-size:12px;
+margin:0;
+}
+
+div#submenu:hover a.topic {
+margin:5px;
+font-size:14px;
+
+	
+}
+
+div#submenu a.subtopic {
+margin-left:20px; margin-right:20px;
+font-size:12px;
+
+}
+
+div#submenu div.subtopic {
+display:none;
+}
+
+div#submenu:hover div.subtopic {
+display: block;
+}
+
+div#submenu ul {
+margin:0;
+padding:0;
+}
+
+div#submenu ul li{
+list-style:none;
+display:inline-block;
+margin:0;
+padding:0;
+}
+
+div#submenu>ul>li{
+width:20%;
+}
+
+div#submenu:hover>ul>li{
+width:auto;
+}
+
+
+
+div#submenu:hover>ul>li{
+display:block;
+}
+
+
+
+#subment a:visited {
+
+}
+
+#submenu a:hover {
+background-color:blue;
+}
+
+/*
+<div class="contblock"><h2></h2>
+<div>
+*/
+
+.contblock>h2 {
+background-color:lime;
+
+}
+
+
+.contblock {
+background-color:white;
+padding:3px;
+margin:5px;
+}
+.contblock>div {
+background-color:gray;
+}
+
+/*
+<div id="Can_be_a_powerful_tool_for_web_development"><h3>Can be a powerful tool for web development:</h3><div>
+
+*/
+
+
+/*sub lecture headings*/
+.contblock>div>div>h3 {
+background-color:lime;
+padding-left:30px;
+
+}
+
+.contblock>div>div>div {
+background-color:gray;
+}
+
+/*detect id of exercise*/
+
+.contblock[id^='Exercise']>div,.contblock>div>div[id^='Exercise']>div {
+background-color:orange;
+}
+
+
+.contblock[id$='Exercise']>div,.contblock>div>div[id$='Exercise']>div {
+background-color:orange;
+}
+
+
+.contblock[id=Homework] > div{
+background-color:orange;
+}
+
+
+
+.contblock[id^='Exercise']>h2,.contblock>div>div[id^='Exercise']>h3 {
+background-color: red;
+}
+
+
+.contblock[id$='Exercise']>h2,.contblock>div>div[id$='Exercise']>h3 {
+background-color: red;
+}
+
+.contblock[id=Homework] > h2 {
+background-color: red;
+}
+
+
+
+

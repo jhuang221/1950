@@ -1,0 +1,487 @@
+<!-- sub Menu -->
+<div id="submenu">
+
+<br /><a href="#SEO_Basics" class='topic'>SEO Basics</a>
+<br /><a href="#Search_Engine_Optimization" class='subtopic'>Search Engine Optimization</a>
+<br /><a href="#Search_Engines" class='topic'>Search Engines</a>
+<br /><a href="#How_search_engines_work" class='subtopic'>How search engines work</a> | <a href="#Search_engine_limitations" class='subtopic'>Search engine limitations</a>
+<br /><a href="#Best_Practices" class='topic'>Best Practices</a>
+
+<br /><a href="#Site_Load_Time" class='topic'>Site Load Time</a>
+<br /><a href="#Cache_Control" class='subtopic'>Cache Control</a> | <a href="#GZip_Compression" class='subtopic'>GZip Compression</a>
+<br /><a href="#Site_Structure" class='topic'>Site Structure</a>
+
+<br /><a href="#Content" class='topic'>Content</a>
+
+<br /><a href="#Keywords" class='topic'>Keywords</a>
+<br /><a href="#Choosing_useful_keywords" class='subtopic'>Choosing useful keywords</a>
+<br /><a href="#Submit_URLs_To_Search_Engines" class='topic'>Submit URLs To Search Engines</a>
+<br /><a href="#Search_Engine_Submissions" class='subtopic'>Search Engine Submissions</a>
+<br /><a href="#Disallowing_SEO" class='topic'>Disallowing SEO</a>
+<br /><a href="#Using_meta_Tag_To_Disallow_Indexing" class='subtopic'>Using meta Tag To Disallow Indexing</a> | <a href="#Using_robots.txt_To_Disallow_Indexing" class='subtopic'>Using robots.txt To Disallow Indexing</a> | <a href="#Disallow_Per_Link" class='subtopic'>Disallow Per Link</a>
+<br /><a href="#SEO_Resources" class='topic'>SEO Resources</a>
+<br /><a href="#Great_documents_on_SEO" class='subtopic'>Great documents on SEO</a>
+<br /><a href="#SEO_Exercise" class='topic'>SEO Exercise</a>
+
+<br /><a href="#Template_Development_Introduction" class='topic'>Template Development Introduction</a>
+
+<br /><a href="#A_Basic_CMS" class='topic'>A Basic CMS</a>
+<br /><a href="#How_do_they_work" class='subtopic'>How do they work</a> | <a href="#What_are_they_used_for" class='subtopic'>What are they used for</a>
+<br /><a href="#Exercise" class='topic'>Exercise</a>
+
+<br /><a href="#Adding_Static_Pages" class='topic'>Adding Static Pages</a>
+
+<br /><a href="#Theme_Templates" class='topic'>Theme Templates</a>
+
+<br /><a href="#CMS_On_Your_Own_Domain" class='topic'>CMS On Your Own Domain</a>
+
+<br /><a href="#Homework" class='topic'>Homework</a>
+</div><!-- end sub Menu --><!-- [3]:  -->
+ 
+<div class="contblock"><h2></h2>
+<div>
+
+	<ul>
+		<li>Quiz #7</li>
+		<li>Search Engine Optimization</li>
+		<li>Templating Systems</li>
+	</ul>
+	
+</div>
+</div>
+<!-- [3]: SEO Basics -->
+ 
+<div id="SEO_Basics" class="contblock"><h2>SEO Basics</h2>
+<div>
+
+		<div id="Search_Engine_Optimization"><h3>Search Engine Optimization</h3><div>
+		<p>Users commonly use search engines to navigate the vast quantity of content available online. Web content is first indexed by a search engine, and sophisticated algorithms are used to assess the best match of indexed pages to search query keywords. Search engine optimization (SEO) refers to the best practices and techniques that influence your pages potential ranking.</p>
+		<p>SEO ties into both semantics and standards very closely. The more effectively the semantics explains the content, the more sense can be made of the content by search engine algorithms, resulting in superior rankings.</p>
+		<p>Long gone are the days of SEO snake oil that saw a lot of shady practices resulting in positive results. Today, most search engine algorithms are so well developed, that the best policy is: well marked up content!</p>
+	</div></div>
+</div>
+</div>
+<!-- [3]: Search Engines -->
+ 
+<div id="Search_Engines" class="contblock"><h2>Search Engines</h2>
+<div>
+
+	<div id="How_search_engines_work"><h3>How search engines work</h3><div>
+	<ul>
+		<li>automated bots crawl the web</li>
+		<li>pages the bots discover are indexed</li>
+		<li>page content (text, images with alt attributes, etc) is assessed</li>
+		<li>links on the pages are followed</li>
+		<li>sophisticated algorithms determine which pages are the best match for a search query</li>
+	</ul>
+	</div></div><div id="Search_engine_limitations"><h3>Search engine limitations</h3><div>
+	<ul>
+		<li>they cannot fill in an html form, so may not access content secured behind a login</li>
+		<li>they are mostly ineffective with non-textual content (video, flash files, images and audio)</li>
+		
+	</ul>
+	</div></div>
+</div>
+</div>
+<!-- [3]: Best Practices -->
+ 
+<div id="Best_Practices" class="contblock"><h2>Best Practices</h2>
+<div>
+
+<p>Here are some of the best practices for proper markup and site design for optimal SEO</p>
+<ul>
+	<li><strong>Page Titles</strong> - Encapsulate each page on your site very briefly &amp; include company info. <br /><code>&lt;title>companyName : pageTitle&lt;/title></code> </li>
+	<li><strong>Titles</strong> are used in results, so be sure they are descriptive and brief</li>
+	<li>The <code>meta</code> tag <code>name="description"</code> attribute  is used, <code>name="keywords"</code> is not<br /><code>&lt;meta	name="description" content="The first several words of this attribute is displayed along with many search engine rankings" /></code></li>
+	<li>The <code>description</code> attribute is the content users see in many search engines. Be accurate and descriptive, but be sure to <em>summarize the content of the page</em></li>
+	<li>Include a site map to indicate which pages are the most important entry points to your website</li>
+	<li>Assign your own "Page Not Found" file instead of using the default Error 404 response</li>
+	
+	<!--<li>Examine the commented source code of this <a href="search_engine_optimization.html">Search Engine Optimized page</a></li>-->
+	
+</ul>
+
+</div>
+</div>
+<!-- [3]: Site Load Time -->
+ 
+<div id="Site_Load_Time" class="contblock"><h2>Site Load Time</h2>
+<div>
+
+<ul>
+	<li>To be effective for search engines (and impatient users) a page and all its resources should load in the client browser in under 4 seconds. There are several services online for testing page speed from various servers around the globe. Try <a href="https://tools.pingdom.com">pingdom.com's page performance analysis</a>. </li>
+	<li>To maximize the speed of page loads, you may consider minifying your HTML, CSS, Javascript production code. Removing spaces, carriage returns and tabs. Dont use minified code at development time, it is impossible to read and maintain. <a href="http://minifycode.com/">minifycode.com's minifying tool</a> is useful for conversion between minified and beautified.</li>
+</ul>
+<div id="Cache_Control"><h3>Cache Control</h3><div>
+<ul>
+	<li>You can also increase speed and efficiency by leveraging browser caching. Instruct the client which resources will be cached and for how long with <a href="https://varvy.com/pagespeed/cache-control.html">cache control</a>. This can be acheived by applying directives to an <code>.htaccess</code> file. Cache duration is defined in seconds (eg: 1 month is 2628000 seconds, 1 year 31536000, etc). For example: <pre><code>#add this code to your .htaccess
+#the pipe delimited lists describe which file types to target
+#max-age=31536000 describes the duration of the cache in seconds
+	
+#cache image files for one year
+&lt;filesMatch ".(jpg|jpeg|png|gif|ico)$">
+	Header set Cache-Control "max-age=31536000, public"
+&lt;/filesMatch>
+
+#cache css and js files for one month
+&lt;filesMatch ".(css|js)$">
+	Header set Cache-Control "max-age=2628000, public"
+&lt;/filesMatch>
+
+#if your html content is regularly updated, set a 1 day cache
+&lt;filesMatch ".(html)$">
+	Header set Cache-Control "max-age=86400, public"
+&lt;/filesMatch>
+
+#if needed, you can also disable caching for specific file types
+&lt;filesMatch ".(pdf)$">
+	Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
+&lt;/filesMatch></code></pre></li>
+	<li>Cached content younger than the assigned duration will not cause a request to the server, saving time and bandwidth</li>
+	<li>Cached content is URL based, so if the URL of the resource changes, a new request to the server is required. You can use this to ensure users get the latest version of your code. For example changing <code>href="/styles/style_1.3.css"</code> to <code>href="/styles/style_2.0.css"</code> ensures <code>style_1.3.css</code> will not be used even if its cache duration has yet to expire</li>
+</ul>
+</div></div><div id="GZip_Compression"><h3>GZip Compression</h3><div>
+<ul>
+	<li><a href="https://varvy.com/pagespeed/enable-compression.html">GZip</a> is a common method for compressing files before transfer on a network, resulting in smaller file sizes (faster, less bandwidth useage)</li>
+	<li>GZip is especially effective with text based files (.html, .css, .js, etc), but less so with images (since images are already compressed). GZipped text filesizes can be 50-70% smaller than before compression</li>
+	<li>When a browser makes a request to a server, it will notify the server if it can accept gzipped files. If so, the server will compress files before sending the response</li>
+	<li>To enable GZip on certain file types, add the following to your server <code>.htaccess</code> file:<pre><code>#the file types in the pipe delimited list here
+#will ensure browsers that cant handle GZip wont get it
+&lt;IfModule mod_headers.c>
+  &lt;FilesMatch ".(js|css|xml|gz|html)$">
+    Header append Vary: Accept-Encoding
+  &lt;FilesMatch>
+&lt;/IfModule>
+	
+#files types defined here will use GZip compression
+#for any client browsers that can handle GZip
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript</code></pre></li>
+</ul></div></div>
+
+</div>
+</div>
+<!-- [3]: Site Structure -->
+ 
+<div id="Site_Structure" class="contblock"><h2>Site Structure</h2>
+<div>
+
+<p>The names of your files and folders, as well as the parent-child structure of the folders should be descriptive and indicative of the site's information architecture.</p>
+<ul>
+	<li><strong>URL Structure</strong> - Having descriptive URLs is a matter of proper site design</li>
+	<li>When URLs make sense, users (and many engines) find it easier to determine the content and the hierarchy</li>
+	<li>Use <strong>actual words in URLs</strong> when you can.  <code>/url?ejamcirkanfmnadcmgnskd</code> is not very descriptive.  <code>/products/dogfood/specials</code> is better</li>
+	<li><strong>Site structure</strong> plays a big part here</li>
+	<li>If your site uses a pop-up, nested navigation, be sure all links/sublinks are visible in the HTML code (eg: dont use javascript to add/remove important navigation link HTML)</li>
+	<li>Dont bury important links inside <code>iframe</code>s, flash files or java applets</li>
+</ul>
+
+</div>
+</div>
+<!-- [3]: Content -->
+ 
+<div id="Content" class="contblock"><h2>Content</h2>
+<div>
+
+<p>Content within your site is one of the biggest elements that you get ranked on.  Be sure it is accurate and reflects the other page elements like the <code>meta name="description"</code>, Title and any headings.</p>
+<ul>
+	<li>Content should be easy to read and <strong>on-topic</strong> as much as possible</li>
+	<li>Having updated, or <strong>"fresh" content</strong> can improve your site</li>
+	<li><strong>Contextual linking</strong> is very important! Hyperlinks should link to on-topic, relevant content, and the clickable text used in anchor tags should be descriptive, concise and easy to understand. <br />eg: good: <a href="http://www.highervisibility.com/top-10-advantages-of-contextual-link-building-for-seo/">Advantages of contextual linking</a>, poor: <a href="http://www.bcit.ca">Click here</a></li>
+	<li>Heading tags, as with other logical, semantic tags, should be used to <strong>accurately describe content</strong></li>
+	<li>Encourage other reputable web sites to link to yours. The more sites that link to yours the better, and the more reputable those sites are, the better still.. </li>
+	<li><code>img</code> tags should include descriptive <code>alt</code> attributes</strong></li>
+	<li>Embedded video and audio files can have <code>figure</code> / <code>figcaption</code> tags added to summarize the content</strong></li>	
+	<li>To fully maximize video and audio file SEO you can also add a transcript (usually a link to a page with the transcript)</li>
+	<li>A video with closed captioning will rank higher than one without</li>	
+</ul>
+
+</div>
+</div>
+<!-- [3]: Keywords -->
+ 
+<div id="Keywords" class="contblock"><h2>Keywords</h2>
+<div>
+
+<p>The keywords and phrases a user provides when querying a search engine are the basis for determining the best match. A website's target keywords and phrases should appear organically within the site content.</p>
+<div id="Choosing_useful_keywords"><h3>Choosing useful keywords</h3><div>
+<ul>
+	<li>Is the keyword relevant to your website?</li>
+	<li>Would a searcher using that keyword be pleased with your site as the result? Will they find what they are looking for?</li>
+	<li>Use the keyword and phrases yourself in a search engine. Examine and emulate the websites that are the top ranked results based on how they apply the various metrics discussed in COMP1950.</li>
+	<li>Most major search providers have advertising options available which can boost your ranking. Typically they charge only for the times users click through and visit your site. 
+	<ul>
+		<li><a href="https://adwords.google.com/home/#?modal_active=none">Google Adwords</a></li>
+		<li><a href="https://secure.azure.bingads.microsoft.com/Login.aspx">Bing Ads</a></li>
+	</ul></li>
+	<li>Dont get hung up on scoring high with extremely popular keywords and phases. The most common keywords constitute about 30% of all searches. The remaining 70% involve much more unique keywords and phrases. These more unique queries often convert into a sale or the desired user action. For example, a search for <em>'televisions'</em> is typically made by someone who is in the early stages of browsing. Someone who searches for <em>'Samsung 40" Ultra HD TV on sale'</em> is much closer to making an actual purchase.</li>
+</ul></div></div>
+
+</div>
+</div>
+<!-- [3]: Submit URLs To Search Engines -->
+ 
+<div id="Submit_URLs_To_Search_Engines" class="contblock"><h2>Submit URLs To Search Engines</h2>
+<div>
+
+<p>Search engines regularly crawl the content of the web to keep their rankings up to date. During this procedure, it is only a matter of time before new pages are 'discovered' and added to the index, eventually becoming candidates to appear in search query results. New websites, especially commerical enterprises, will want to expedite this process by explicitly notifying the major engines that their site is online and ready to be indexed.</p>
+<div id="Search_Engine_Submissions"><h3>Search Engine Submissions</h3><div>
+<ul>
+<li><a href="http://www.google.com/submityourcontent/">Google</a></li>
+<li><a href="http://www.bing.com/toolbox/submit-site-url">Bing</a></li>
+<li>Yahoo (powered by Bing)</li>
+<li><a href="http://www.entireweb.com/free_submission/">EntireWeb</a> (submit to several search engines at once)</li>
+</ul>
+</div></div>
+
+</div>
+</div>
+<!-- [3]: Disallowing SEO -->
+ 
+<div id="Disallowing_SEO" class="contblock"><h2>Disallowing SEO</h2>
+<div>
+
+<p>As a general rule, all publicly available web content should be optimized for search engines. However, if there are sections of your site you do not want indexed, there are several options. </p>
+<div id="Using_meta_Tag_To_Disallow_Indexing"><h3>Using meta Tag To Disallow Indexing</h3><div>
+<p>You can <a href="http://www.inmotionhosting.com/support/website/restricting-bots/using-a-meta-tag-to-block-bots-from-indexing-a-webpage">use the meta tag to stop SEO indexing</a>.</p>
+<p><code>&lt;-- dont index this page (noindex), dont index pages that this page links to (nofollow)--><br />&lt;meta name="robots" content="noindex, nofollow"></code></p>
+
+</div></div><div id="Using_robots.txt_To_Disallow_Indexing"><h3>Using robots.txt To Disallow Indexing</h3><div>
+<p>To <a href="http://www.inmotionhosting.com/support/website/how-to/how-to-stop-search-engines-from-crawling-your-website">dissallow SEO using Robots.txt</a>, place a text file named <code>robots.txt</code> in your server root that includes the following:</p><pre><code>User-agent: *
+Disallow: /
+</code></pre>
+<p>Alternatively, <code>robots.txt</code> can also disallow indexing on specific folders or files:</p>
+<pre><code>User-agent: *
+Disallow: /privateFolder/
+Disallow: /tmp/file.html</code></pre>
+
+
+
+</div></div><div id="Disallow_Per_Link"><h3>Disallow Per Link</h3><div>
+<p>If your pages include any links to pages that you don't want included in the ranking algorithm, you can add a <code>rel="nofollow"</code> attribute, eg:</p>
+<p><code>&lt;-- dont include the page this links to when assessing this page --><br />&lt;a href="http://www.bcit.ca" rel="nofollow">BCIT&lt/a></br></code></p>
+<p>Why do this? When you link to another website, you are passing your site's reputation along. If, for instance, you are allowing users to add comments in an open forum, someone might post links to external sites, some of which may not be deserving of your sites reputation.</p></div></div>
+
+</div>
+</div>
+<!-- [3]: SEO Resources -->
+ 
+<div id="SEO_Resources" class="contblock"><h2>SEO Resources</h2>
+<div>
+
+
+<div id="Great_documents_on_SEO"><h3>Great documents on SEO</h3><div>
+<p>Google's own <a href="http://static.googleusercontent.com/external_content/untrusted_dlcp/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf">Search Engine Optimization</a> guide</p>
+<p>The <a href="http://searchengineland.com/download/seotable/SearchEngineLand-Periodic-Table-of-SEO.pdf">Periodic Table of Search Engine Optimization</a></p>
+</div></div>
+
+</div>
+</div>
+<!-- [3]: SEO Exercise -->
+ 
+<div id="SEO_Exercise" class="contblock"><h2>SEO Exercise</h2>
+<div>
+
+<p>Examine the pages on your student webspace on <code>bcitcomp.ca</code> and make a list of the additions or alterations that could be applied to improve search engine results. Let your instructor know what your recommendations are.</p>
+<ul>
+	<li>are you using the <code>meta description</code> attribute?</li>
+	<li>do your pages each have a useful and descriptive title, and does each page have a obvious main heading?</li>
+	<li>does your page contain additional headings that accurately summarize content?</li>
+	<li>do the (non lorum-ipsum) pages have content that is on-topic? is there a decent, reasonable quantity of content on each page? is the content thoughtfully composed? does it contain words and phrases that an interested user might search with?</li>
+	<li>are you using the best filenames? folder names? site structure?</li>
+	<li>are your hyperlinks contextual, including descriptive link text?</li>
+	<li>would any resources be candidates for caching?</li>
+</ul>
+
+</div>
+</div>
+<!-- [3]: Template Development - Introduction -->
+ 
+<div id="Template_Development_Introduction" class="contblock"><h2>Template Development - Introduction</h2>
+<div>
+
+		
+	<ul>
+	<li>A common type of work done today: customizing template systems or writing them from scratch</li>
+	<li>All levels: 
+			<ul>
+					<li><strong>Server side admins</strong> enable applications</li>
+					<li><strong>Programmers</strong> connect logic and data to front end code</li>
+					<li><strong>Client side scripters</strong> work with provided content for element manipulation</li>
+					<li><strong>Client side coders</strong> create the HTML and CSS to present the information</li>
+			</ul></li>
+	
+	<li>Many different languages and tools for developing templates</li>
+	<li>One common principle: inserting content into HTML</li>
+	<li>The primary (and nearly overwhelming use) of any template is for any type of <strong>Content Management System</strong> (CMS)</li>
+	<li>The simplest and most well known: a Blog</li>
+	</ul>
+	
+
+</div>
+</div>
+<!-- [3]: A Basic CMS -->
+ 
+<div id="A_Basic_CMS" class="contblock"><h2>A Basic CMS</h2>
+<div>
+
+
+<p>A "Blog" is short for "Web Log".  It is generally a web page or pages dedicated to the posting of information by a user.</p>
+<p>Early Blogs were written as personal journals online, and many of them were hand-coded and uploaded each time content was changed.</p>
+<p>Today, there are many tools for creating and updating blogs, such as:</p><ul>
+<li><a href="http://www.tumblr.com/">Tumblr</a></li>
+<li><a href="http://wordpress.com/">Word Press</a></li>
+<li><a href="http://www.blogger.com/">Blogger</a></li>
+<li><a href="http://www.sixapart.com/movabletype/">Movable Type</a></li>
+</ul><p></p>
+
+
+<p>Blogs have emerged as one of the leading technologies influencing the web today.  What started as individual users posting personal messages have now moved to corporations posting news and event information on their site with Blog-like functionality.</p>
+
+<div id="How_do_they_work"><h3>How do they work?</h3><div>
+<ul>
+	<li>At their simplest, any Blog architecture will take content provided by the user (Generally a title and some content) and push it to a web space.</li>
+	<li>Using templates, Blog software will take the content entered by the user, and insert it into the HTML where there are tags responsible for certain bits of information such as date, author, title, content, product name, cost, image and many other possibilities.</li>
+	<li>For example, the title of a page using <strong>Tumblr</strong> can be inserted using the following tag (token): <code>{Title}</code></li>
+	<li>The <code>{Title}</code> tag is a proprietary syntax that tells the CMS on the backend to go find the title and insert it in the HTML</li>
+	<li>The title is a monatomic tag (meaning there is only an "opening" and not a closing tag to go with it), as it simply represents a <em>variable</em> that the CMS will keep track of.</li>
+	<li>Other tags work like HTML, enclosing information, such as:<pre><code>{block:Description}
+	&lt;p id="description"&gt;{Description}&lt;/p&gt;
+{/block:Description}</code></pre>
+</li>
+	<li>You can see that there is the CMS-specific <strong>{block}</strong> tag with an attribute of <strong>Description</strong>. That indicates that the content inside the tag will be related to the description as entered by the author.</li>
+
+	<li>Also notable is the inclusion of regular HTML inside the Tumblr tags - exactly like our SSI exercises.</li>
+
+
+	<li>Once your template has been created, Tumblr (or any other Blog Application) will scan your template for tags that indicate where data should be inserted.</li>
+
+	<li>The application will then insert all of the relevant data and publish to completed HTML page to the specified server.</li>
+	<li>The process works exactly like Server Side Includes, but the result resides on the web server (instead of in a browser window).  This is an advantage, as further server processing can be done when a page is actually requested by a user.</li>
+</ul>
+</div></div><div id="What_are_they_used_for"><h3>What are they used for?</h3><div>
+<p>Beginning as simple online journals, blogs are being used more and more for knowledge sharing and building.</p>
+<p>Many News sites are moving to Blog-like formats, allowing stories to be published, with follow-ups linked to the original story, as well as categorization used to link to similar stories.</p>
+<p>Blogs are increasingly being used as educational tools, letting instructors post notes to students, and allowing students to have a running narrative of events and knowledge that they are building</p>
+<p>With the ability to syndicate through the use of RSS, it is becoming easier for users to browse through large collections of Blogs simply by glancing at the titles in a News Reader. </p>
+<p>One of the most interesting uses of Blogs is to allow multiple authors access to contribute, and build a collection of work through multiple postings.  This is similar to a message board, but in a more narrative style.</p></div></div>
+
+</div>
+</div>
+<!-- [3]: Exercise -->
+ 
+<div id="Exercise" class="contblock"><h2>Exercise</h2>
+<div>
+
+<p>Everyone will work with a Template using Tumblr as our Content Management System.</p>
+<p>Please follow these steps:</p>
+	<ul>
+		<li>Go to <a href="http://tumblr.com/">Tumblr</a> and create an account or log in to your existing account</li>
+		<li>If you already have an account, create a new blog by clicking the bulleted list icon at the top of your dashboard and selecting "Create new blog"</li>
+		<li>Choose a basic, pre-created theme (template)</li>
+		<li>Write some detailed content:
+			<ul>
+				<li>Three text posts</li>
+				<li>Three photo posts</li>
+				<li>Three link posts</li>
+				<li>Any order is fine</li>
+				<li>Please include some level of detail, or select a topic (like dogs, or beer) and find some relevant photos and links</li>
+			</ul>
+		
+		</li>
+		<li>Publish the content and see how it looks</li>
+		<li>Examine the template (right click on your dashboard icon and choose 'Open link in new window' or just visit http://yourTumblrSiteName.tumblr.com/)</li>
+			
+	</ul>
+
+
+</div>
+</div>
+<!-- [3]: Adding Static  Pages -->
+ 
+<div id="Adding_Static_Pages" class="contblock"><h2>Adding Static  Pages</h2>
+<div>
+
+<p>You can also add static pages to a Tumblr site. These will not have the 'blog' type of data, but might be useful for things like 'About Us' or 'Contact Us' type pages. To add a static page in Tumblr:</p>
+<ul>
+	<li>log into the dashboard</li>
+	<li>view your website (eg: http://yourTumblrSiteName.tumblr.com/)</li>
+	<li>choose "Edit Theme" from the top right corner</li>
+	<li>choose "Add Page" from the bottom left corner</li>	
+	<li>add a URL to the path (name a folder that describes the page, eg "yourTumblrSiteName.tumblr.com/about_us/")</li>
+	<li>enable the "show a link to this page" option</li>
+	<li>add a page title, and add page content as needed</li>
+	<li>choose "save"</li>
+</ul>
+
+</div>
+</div>
+<!-- [3]: Theme Templates -->
+ 
+<div id="Theme_Templates" class="contblock"><h2>Theme Templates</h2>
+<div>
+
+<p>The theme templates in Tumblr are responsible for the layout and style used by the blog. While they are ultimately HTML and CSS, they also use plenty of <code>tokens</code> that allow it to dynamically draw in content (eg: your latest blog posts).</p>
+<h4>Swapping Theme Templates</h4>
+<ul>
+	<li>log into the dashboard</li>
+	<li>visit <a href="https://www.tumblr.com/customize">tumblr.com/customize</a></li>
+
+	<li>choose "Browse Themes" > "Free Themes" from the top right corner</li>
+	<li>pick a theme from those available and choose "Use"</li>
+</ul>
+<h4>Customizing Theme Templates</h4>
+<ul>
+	<li>log into the dashboard</li>
+	<li>visit <a href="https://www.tumblr.com/customize">tumblr.com/customize</a></li>
+	<li>choose "Edit HTML"</li>
+	<li>add/alter code as needed (eg: embed your own CSS styles at the end of the head section to include your own styles)</li>
+	<li>choose "Save"</li>
+</ul>
+<p>Tumblr provides several options for customizing the theme of your blog. <a href="http://www.tumblr.com/docs/en/custom_themes">Learn more about themes</a>.</p>
+
+<p>If you have irrevocably altered the template tokens of a particular theme, you can always <a href="http://www.tumblr.com/theme/433">reset the page theme</a> by applying the original default Tumblr template.</p>
+
+</div>
+</div>
+<!-- [3]: CMS On Your Own Domain -->
+ 
+<div id="CMS_On_Your_Own_Domain" class="contblock"><h2>CMS On Your Own Domain</h2>
+<div>
+
+<p>Free hosting is a nice perk with CMS such as Wordpress, Tumblr etc. But often you will need the URL to direct to a dedicated domain. Most CMS can be deployed on your own server/domain. Choose host providers that will support the CMS of your choice. Some CMS, like <a href="https://wordpress.org/">wordpress.org</a> will allow you to download your own copy of the code, allowing you to install it on your own local server.</p>
+
+
+</div>
+</div>
+<!-- [3]: Homework -->
+ 
+<div id="Homework" class="contblock"><h2>Homework</h2>
+<div>
+
+<ul>
+	<li>session #10's quiz will be written, closed book</li>
+	<li>homework #8 due by midnight before the next class</li>
+<!--	<li>homework specifications will be available here  upon release</li>-->
+<li><a href="/_shared_resources_1950/downloads/comp1950_homework08.pdf">download the homework</a>
+	</li>
+</ul>
+
+</div>
+</div>
+<!-- [3]:  -->
+ 
+<div id="footer"><h2></h2>
+<div>
+
+			<a href="#top">Top of Page</a> | <a href="/comp1950/">Home</a>
+		
+</div>
+</div>

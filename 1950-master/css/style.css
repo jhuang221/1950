@@ -1,0 +1,208 @@
+﻿/*
+    Name: Jinxing Huang (Jason)
+    ID: A00972319
+ */
+
+
+
+
+body{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #222e56;
+    color: white;
+}
+#headertop{
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#headertop li{
+    
+    display: inline-block;
+    margin: 0 20px;
+    /*ffloat: right;*/
+    list-style-type: none;
+    
+    
+}
+#headertop li a{
+    color: white;
+    display: block;
+    margin: 5px 20px;
+    /*ffloat: right;*/
+    text-decoration: none;
+    
+}
+#navcontainer{
+    background-color: white;
+    height: 90px;
+}
+#sidernav{
+
+    text-align: center;
+    margin:10px;
+    padding:0;
+}
+#sidernav li{
+	list-style-type:none;
+}
+
+#sidernav li ul {
+padding:0;
+margin:0;
+}
+
+
+#sidernav>li.active>a {
+border-bottom:1px black solid;
+	
+}
+#sidernav>li.hide,#sidernav>li>ul.hide {
+display:none;
+}
+
+
+
+#sidernav>li.active.hide {
+display:block;
+}
+
+#sidernav li a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding:10px 5px;
+}
+
+#sidernav li li a{
+/*margin-left:10px;
+text-align:left;*/
+margin:0;
+padding:0;
+position:relative;
+padding:10px 5px;
+}
+
+
+#navlist{
+    background-color: #d1d0ce;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 90px;
+    margin-top: 0;
+    padding-left: 0;
+}
+#navlist>li{
+    display: inline-block;
+    outline-style: none; 
+    
+}
+#navlist>li>a{
+    display: block;
+    padding: 40px;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+}
+#navlist>li>a:hover, #navlist>li:hover>a{
+    background-color: #222e56;
+    color: white;
+}
+
+
+#navlist li div {
+display:none;
+}
+
+
+#navlist li ul {
+display:block;
+border:1px fuchsia solid;
+border:1px white solid;
+width:auto; /*200px*/
+margin:0;
+padding:5px;
+background-color:red;
+background-color: #d1d0ce;
+}
+
+#navlist li ul li {
+display: block;
+margin:0;
+padding:1px;
+text-align:center;
+list-style:none;
+}
+
+#navlist li ul>li>a {
+
+display:block;
+margin:0;
+padding:0;
+font-size:20px;
+background-color:aqua;
+color:white;
+}
+
+
+
+#navlist li:hover div,#navlist li div:hover {
+display:block;
+position:relative;
+}
+
+#navlist li:hover div ul{
+position:absolute;
+}
+
+#navlist li li a:hover {
+background-color:fuchsia;
+}
+
+
+
+
+#title{
+    text-align: center;
+    height: 140px;
+}
+main{
+    background-color: white;
+    width: 100%;
+    min-height: 600px;
+    color: black;
+}
+#active{
+     background-image: url('../bk.jpg');
+    background-size:100% 100%;
+	background-repeat:no-repeat;
+    z-index: -1;
+}
+#content{
+    width: 960px;
+    background-color: #d1d0ce;
+    margin:0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    z-index: 999;
+    
+}
+#leftsidebar{
+    float: left;
+}
+#leftsidebar h4{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+
+    
