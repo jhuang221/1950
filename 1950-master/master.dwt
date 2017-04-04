@@ -30,9 +30,10 @@
         </div>
         
        <div id="navcontainer">
+       <!-- #BeginEditable "nav" -->
         <ul id="navlist">
-            <li><a href="#" id="current">About</a></li>
-            <li><a href="#" onclick="return false;" >Tutorial</a>
+            <li><a href="index.html">About</a></li>
+            <li><a href="#" onclick="return false;" class="current">Tutorial</a>
             	<div><ul>
             		<li><a href="pages/lecture_lectures.html">Lecture One</a></li>
             		<li><a href="pages/lecture_two.html">Lecture Two</a></li>
@@ -54,6 +55,7 @@
             <li><a href="#">Contact</a></li>
             <li><a href="#">Associated</a></li>
         </ul>
+        <!-- #EndEditable "nav" -->
         </div>
         <div id="title">
         	 <!-- #BeginEditable "pagetitle" -->
@@ -72,7 +74,7 @@
             <ul id ="sidernav">
             <li><a href="index.html">About</a></li>
             <!-- id="active" -->
-            <li class="active hide"><a href="#" id="current">Lecture</a>
+            <li class="active hide"><a href="#" class="current">Lecture</a>
 			<ul>
             <li><a href="#">Quiz</a></li>
             <li><a href="#" onclick="return exercises(this);" id="exercises">Exercises</a></li>
